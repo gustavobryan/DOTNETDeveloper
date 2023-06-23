@@ -1,12 +1,30 @@
 ﻿using DOTNETDeveloper.Models;
 
+//Cast implícito: conversão de diferentes tipos auto
+//Convert para int ToInt
+// long a = long.MaxValue;
+// int b = Convert.ToInt32(a);
+
+int a = int.MaxValue;
+long b = a;
+
+Console.WriteLine(b);
+
+
+// ToString, converte em string.
+// int inteiro = 11;
+// string a = inteiro.ToString();
+
+// Console.WriteLine(a);
+
+
 //cast - casting (convert)
 // diferença entre parse e convert : tratamento de valores nullos.
-int a = Convert.ToInt32("0");
-int b = int.Parse("9");
+// int a = Convert.ToInt32("0");
+// int b = int.Parse("9");
 
-Console.WriteLine(a);
-Console.WriteLine(b);
+// Console.WriteLine(a);
+// Console.WriteLine(b);
 
 
 // int a = 10;

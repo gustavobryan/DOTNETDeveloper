@@ -1,14 +1,21 @@
 ﻿using DOTNETDeveloper.Models;
 
+
+// ordem dos operadores
+// double a = 4 / (2 + 2 );
+
+// Console.WriteLine(a);
+
+
 //Cast implícito: conversão de diferentes tipos auto
 //Convert para int ToInt
 // long a = long.MaxValue;
 // int b = Convert.ToInt32(a);
 
-int a = int.MaxValue;
-long b = a;
+// int a = int.MaxValue;
+// long b = a;
 
-Console.WriteLine(b);
+// Console.WriteLine(b);
 
 
 // ToString, converte em string.

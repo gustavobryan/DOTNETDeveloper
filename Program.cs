@@ -1,9 +1,12 @@
 ﻿using DOTNETDeveloper.Models;
 
 //cast - casting (convert)
+// diferença entre parse e convert : tratamento de valores nullos.
+int a = Convert.ToInt32("0");
+int b = int.Parse("9");
 
-int a = Convert.ToInt32("5");
 Console.WriteLine(a);
+Console.WriteLine(b);
 
 
 // int a = 10;

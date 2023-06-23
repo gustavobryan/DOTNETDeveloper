@@ -1,8 +1,17 @@
 ﻿using DOTNETDeveloper.Models;
 
+//cast - casting (convert)
+
+int a = Convert.ToInt32("5");
+Console.WriteLine(a);
+
+
 // int a = 10;
 // int b = 20;
 // int c = a + b;
+
+// //c += 5;
+// c -= 5;
 
 // Console.WriteLine(c);
 
@@ -28,4 +37,3 @@
 // p.Nome = "Bryan";
 // p.Idade = 25;
 // p.Apresentar();
-

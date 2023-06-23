@@ -1,5 +1,15 @@
 ﻿using DOTNETDeveloper.Models;
 
+//TryParse para não haver quebra de código
+string a = "15-";
+
+//int b = 0;
+
+int.TryParse(a, out  int b);
+
+Console.WriteLine(b);
+Console.WriteLine("Conversão com sucesso!");
+
 
 // ordem dos operadores
 // double a = 4 / (2 + 2 );

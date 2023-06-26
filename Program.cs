@@ -1,14 +1,33 @@
 ﻿using DOTNETDeveloper.Models;
 
+int quantidadeEmEstoque = 10;
+int quantidadeCompra = 4;
+bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
+
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
+Console.WriteLine($"É possível realizar venda? {possivelVenda}");
+
+
+if (possivelVenda)
+{
+    Console.WriteLine("Venda realizada com sucesso!");
+}
+else 
+{
+    Console.WriteLine("Desculpa, quantidade insuficiente no estoque!");
+}
+
+
 //TryParse para não haver quebra de código
-string a = "15-";
+// string a = "15-";
 
-//int b = 0;
+// //int b = 0;
 
-int.TryParse(a, out  int b);
+// int.TryParse(a, out  int b);
 
-Console.WriteLine(b);
-Console.WriteLine("Conversão com sucesso!");
+// Console.WriteLine(b);
+// Console.WriteLine("Conversão com sucesso!");
 
 
 // ordem dos operadores

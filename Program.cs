@@ -1,25 +1,45 @@
 ﻿using DOTNETDeveloper.Models;
 
-int quantidadeEmEstoque = 10;
-int quantidadeCompra = 0;
-bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
+Console.WriteLine("Digite uma letra: ");
+string letra = Console.ReadLine();
 
-Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
-Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
-Console.WriteLine($"É possível realizar venda? {possivelVenda}");
+switch (letra) 
+{
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+            Console.WriteLine("É uma vogal!");
+            break;
 
-if (quantidadeCompra == 0) 
-{
-    Console.WriteLine("venda inválida");
+            default:
+            Console.WriteLine("Não é uma vogal!");
+            break;
+
 }
-else if (possivelVenda)
-{
-    Console.WriteLine("Venda realizada com sucesso!");
-}
-else 
-{
-    Console.WriteLine("Desculpa, quantidade insuficiente no estoque!");
-}
+
+
+// int quantidadeEmEstoque = 10;
+// int quantidadeCompra = 0;
+// bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
+
+// Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+// Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
+// Console.WriteLine($"É possível realizar venda? {possivelVenda}");
+
+// if (quantidadeCompra == 0) 
+// {
+//     Console.WriteLine("venda inválida");
+// }
+// else if (possivelVenda)
+// {
+//     Console.WriteLine("Venda realizada com sucesso!");
+// }
+// else 
+// {
+//     Console.WriteLine("Desculpa, quantidade insuficiente no estoque!");
+// }
 
 
 //TryParse para não haver quebra de código

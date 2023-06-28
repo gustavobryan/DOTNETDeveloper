@@ -2,6 +2,8 @@
 
 Calculadora calc = new Calculadora();
 
+calc.RaizQuadrada(9);
+
 // calc.Somar(10, 30);
 // calc.Subtrair(10, 50);
 // calc.Multiplicar(15, 5);
@@ -11,20 +13,20 @@ Calculadora calc = new Calculadora();
 // calc.Coseno(30);
 // calc.Tangente(30);
 
-int numero = 10;
+// int numero = 10;
 
-Console.WriteLine(numero);
+// Console.WriteLine(numero);
 
-Console.WriteLine("Incrementando o 10");
-numero ++;
+// Console.WriteLine("Incrementando o 10");
+// numero ++;
 
-int numero2 = 20;
+// int numero2 = 20;
 
-Console.WriteLine("Decrementando o 20");
-numero2--;
+// Console.WriteLine("Decrementando o 20");
+// numero2--;
 
-Console.WriteLine(numero);
-Console.WriteLine(numero2);
+// Console.WriteLine(numero);
+// Console.WriteLine(numero2);
 
 
 // Console.WriteLine("Digite uma letra: ");

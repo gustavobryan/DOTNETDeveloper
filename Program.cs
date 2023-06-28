@@ -1,23 +1,33 @@
 ﻿using DOTNETDeveloper.Models;
 
-Console.WriteLine("Digite uma letra: ");
-string letra = Console.ReadLine();
+Calculadora calc = new Calculadora();
 
-switch (letra) 
-{
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-            Console.WriteLine("É uma vogal!");
-            break;
+calc.Somar(10, 30);
+calc.Subtrair(10, 50);
+calc.Multiplicar(15, 5);
+calc.Dividir(2, 2);
 
-            default:
-            Console.WriteLine("Não é uma vogal!");
-            break;
 
-}
+
+
+// Console.WriteLine("Digite uma letra: ");
+// string letra = Console.ReadLine();
+
+// switch (letra) 
+// {
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//             Console.WriteLine("É uma vogal!");
+//             break;
+
+//             default:
+//             Console.WriteLine("Não é uma vogal!");
+//             break;
+
+// }
 
 
 // int quantidadeEmEstoque = 10;

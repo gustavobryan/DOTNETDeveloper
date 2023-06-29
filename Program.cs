@@ -1,8 +1,16 @@
 ﻿using DOTNETDeveloper.Models;
 
-Calculadora calc = new Calculadora();
+int numero = 5;
 
-calc.RaizQuadrada(9);
+for(int contador = 0; contador <= 10; contador++)
+{
+    Console.WriteLine($"{numero} x {contador} = {numero * contador}");
+}
+
+
+// Calculadora calc = new Calculadora();
+
+// calc.RaizQuadrada(9);
 
 // calc.Somar(10, 30);
 // calc.Subtrair(10, 50);

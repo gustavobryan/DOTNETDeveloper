@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DOTNETDeveloper\\DOTNETDeveloper.csproj": {}
+    "C:\\Users\\gbrya\\Projetos\\DOTNETDeveloper\\DOTNETDeveloper.csproj": {}
   },
   "projects": {
-    "E:\\DOTNETDeveloper\\DOTNETDeveloper.csproj": {
+    "C:\\Users\\gbrya\\Projetos\\DOTNETDeveloper\\DOTNETDeveloper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DOTNETDeveloper\\DOTNETDeveloper.csproj",
+        "projectUniqueName": "C:\\Users\\gbrya\\Projetos\\DOTNETDeveloper\\DOTNETDeveloper.csproj",
         "projectName": "DOTNETDeveloper",
-        "projectPath": "E:\\DOTNETDeveloper\\DOTNETDeveloper.csproj",
+        "projectPath": "C:\\Users\\gbrya\\Projetos\\DOTNETDeveloper\\DOTNETDeveloper.csproj",
         "packagesPath": "C:\\Users\\gbrya\\.nuget\\packages\\",
-        "outputPath": "E:\\DOTNETDeveloper\\obj\\",
+        "outputPath": "C:\\Users\\gbrya\\Projetos\\DOTNETDeveloper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gbrya\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -48,12 +48,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.19, 6.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.19, 6.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.19, 6.0.19]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.19, 6.0.19]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     }

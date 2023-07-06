@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JJjl97kqIogUfArC9Mi3L7DBvjkkrJWhYy/Yp9mLuQWofOLm6+8foxmbgHAx4E0Z7uh2owdV9SRGJKgF0PAXGg==",
+  "dgSpecHash": "p4Mua5JjjNH0C4cNIe0zepu/I3hdQRiBPIXuSHlOt/wuF7fSv/iY9ZLFsex2Sd0v8XImjyF0mVp9CjLwBYpE2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gbrya\\Projetos\\DOTNETDeveloper\\DOTNETDeveloper.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\gbrya\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.19\\microsoft.netcore.app.ref.6.0.19.nupkg.sha512",
-    "C:\\Users\\gbrya\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.19\\microsoft.windowsdesktop.app.ref.6.0.19.nupkg.sha512",
-    "C:\\Users\\gbrya\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.19\\microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512",
-    "C:\\Users\\gbrya\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.19\\microsoft.netcore.app.host.win-x64.6.0.19.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\gbrya\\Projetos\\DOTNETDeveloper\\ExemploFundamentos\\DOTNETDeveloper.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

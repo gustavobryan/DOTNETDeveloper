@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOTNETDeveloper", "DOTNETDeveloper.csproj", "{D009B2A9-1327-4DBA-ACA9-A314F071C85E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploFundamentos.Common", "ExemploFundamentos.Common\ExemploFundamentos.Common.csproj", "{2169741E-0541-4366-84F7-59FCF6EC148E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D009B2A9-1327-4DBA-ACA9-A314F071C85E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D009B2A9-1327-4DBA-ACA9-A314F071C85E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D009B2A9-1327-4DBA-ACA9-A314F071C85E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D009B2A9-1327-4DBA-ACA9-A314F071C85E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2169741E-0541-4366-84F7-59FCF6EC148E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2169741E-0541-4366-84F7-59FCF6EC148E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2169741E-0541-4366-84F7-59FCF6EC148E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2169741E-0541-4366-84F7-59FCF6EC148E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

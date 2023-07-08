@@ -1,8 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  
+
   <ItemGroup>
     <ProjectReference Include="..\ExemploFundamentos.Common\ExemploFundamentos.Common.csproj" />
   </ItemGroup>
+
+  
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>

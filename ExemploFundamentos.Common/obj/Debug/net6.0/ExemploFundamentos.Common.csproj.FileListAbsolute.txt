@@ -1,0 +1,12 @@
+E:\DOTNETDeveloper\ExemploFundamentos.Common\bin\Debug\net6.0\ExemploFundamentos.Common.deps.json
+E:\DOTNETDeveloper\ExemploFundamentos.Common\bin\Debug\net6.0\ExemploFundamentos.Common.dll
+E:\DOTNETDeveloper\ExemploFundamentos.Common\bin\Debug\net6.0\ExemploFundamentos.Common.pdb
+E:\DOTNETDeveloper\ExemploFundamentos.Common\obj\Debug\net6.0\ExemploFundamentos.Common.csproj.AssemblyReference.cache
+E:\DOTNETDeveloper\ExemploFundamentos.Common\obj\Debug\net6.0\ExemploFundamentos.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\DOTNETDeveloper\ExemploFundamentos.Common\obj\Debug\net6.0\ExemploFundamentos.Common.AssemblyInfoInputs.cache
+E:\DOTNETDeveloper\ExemploFundamentos.Common\obj\Debug\net6.0\ExemploFundamentos.Common.AssemblyInfo.cs
+E:\DOTNETDeveloper\ExemploFundamentos.Common\obj\Debug\net6.0\ExemploFundamentos.Common.csproj.CoreCompileInputs.cache
+E:\DOTNETDeveloper\ExemploFundamentos.Common\obj\Debug\net6.0\ExemploFundamentos.Common.dll
+E:\DOTNETDeveloper\ExemploFundamentos.Common\obj\Debug\net6.0\refint\ExemploFundamentos.Common.dll
+E:\DOTNETDeveloper\ExemploFundamentos.Common\obj\Debug\net6.0\ExemploFundamentos.Common.pdb
+E:\DOTNETDeveloper\ExemploFundamentos.Common\obj\Debug\net6.0\ref\ExemploFundamentos.Common.dll

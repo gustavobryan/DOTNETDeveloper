@@ -7,20 +7,31 @@ arrayInteiros[1] = 12;
 arrayInteiros[2] = 13;
 arrayInteiros[3] = 14;
 
+
+int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+
+
+//redimensionando array
+//Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2); 
+
 Console.WriteLine("percorrendo Array com FOR");
 for (int contador = 0; contador < arrayInteiros.Length; contador++)
 {
     Console.WriteLine($"Posição N° {contador} - {arrayInteiros[contador]}");
 }
 
-Console.WriteLine("percorrendo array com FOREACH");
 
-int contadorForeach = 0;
-foreach (int valor in arrayInteiros)
-{
-    Console.WriteLine($"Posição N° {contadorForeach} - {valor}");
-    contadorForeach++;
-}
+
+
+// Console.WriteLine("percorrendo array com FOREACH");
+
+// int contadorForeach = 0;
+// foreach (int valor in arrayInteiros)
+// {
+//     Console.WriteLine($"Posição N° {contadorForeach} - {valor}");
+//     contadorForeach++;
+// }
 
 
 

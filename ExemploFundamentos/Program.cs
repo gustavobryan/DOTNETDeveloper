@@ -1,22 +1,37 @@
 ﻿using ExemploFundamentos.Common.Models;
 
-List<string> listaString = new List<string>();
-
-listaString.Add("SP");
-listaString.Add("BA");
-listaString.Add("MG");
-listaString.Add("RJ");
 
 
-Console.WriteLine($"Itens da minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+Pessoa p = new Pessoa();
 
-listaString.Add("SC");
+/*
+    Atribui o nome idade para pessoa
+    passando o nome bryan
+    e a a idade 25
+*/
+p.Nome = "bryan";
+p.Idade = 25;
 
-Console.WriteLine($"Itens da minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+// faz a pessoa se apresentar
+p.Apresentar();
 
-listaString.Remove("BA");
+// List<string> listaString = new List<string>();
 
-Console.WriteLine($"Itens da minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+// listaString.Add("SP");
+// listaString.Add("BA");
+// listaString.Add("MG");
+// listaString.Add("RJ");
+
+
+// Console.WriteLine($"Itens da minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+// listaString.Add("SC");
+
+// Console.WriteLine($"Itens da minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+
+// listaString.Remove("BA");
+
+// Console.WriteLine($"Itens da minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
 
 
 
